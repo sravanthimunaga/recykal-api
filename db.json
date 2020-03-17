@@ -1,0 +1,82 @@
+{
+"roeldata": [
+    {
+      "id": 1,
+      "role" : "ROLE_ADMIN",
+      "display": "Admin",
+      "module": [
+        {
+          "id": "1",
+          "title": "Dashboard",
+          "permission" : {
+            "read": true,
+            "write": true,
+            "delete": true
+          }
+        },
+        {
+          "id": "2",
+          "title": "Execution",
+          "permission" : {
+            "read": false,
+            "write": true,
+            "delete": true
+          }
+        },
+       {
+          "id": "3",
+          "title": "Service-Provider",
+          "permission" : {
+            "read": true,
+            "write": true,
+            "delete": true
+          }
+        },
+   {
+          "id": "4",
+          "title": "Work-Provider",
+          "permission" : {
+            "read": true,
+            "write": true,
+            "delete": true
+          }
+        },
+        {
+          "id": "5",
+          "title": "Invoices",
+          "permission" : {
+            "read": true,
+            "write": true,
+            "delete": true
+          }
+        },
+   {
+          "id": "6",
+          "title": "set-target",
+          "permission" : {
+            "read": false,
+            "write": true,
+            "delete": true
+          }
+        },
+       {
+          "id": "7",
+          "title": "Reports",
+          "permission" : {
+            "read": true,
+            "write": true,
+            "delete": true
+          }
+        },
+       {
+          "id": "8",
+          "title": "Roles",
+          "permission" : {
+            "read": true,
+            "write": true,
+            "delete": true
+          }
+        }
+      ]
+    }
+  ]}
